@@ -1,0 +1,56 @@
+.row h6 a {
+  text-decoration: none;
+}
+a img {
+  height: 50px;
+}
+.extra-margin {
+  margin-bottom: 20px;
+}
+.container {
+  margin-bottom: 50px;
+}
+.primary-button {
+  background-image: linear-gradient(to bottom, #444, #000);
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}
+.carousel-indicators li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  text-indent: 0;
+  cursor: pointer;
+  border: none;
+  background-color: #e9ba2c;   
+}
+ .carousel-indicators .active {
+  width: 40px;
+  height: 10px;
+  border-radius:20px ;
+  background-color: #18a3bf;
+}
+.orange a{
+  color: orange;
+}
+.card {
+  border: none;
+  box-shadow: 2px 2px 10px gray;
+  border-radius: 15px;
+}
+.card img {
+  width: 200px;
+  padding-top: 40px;
+}
+.card-footer {
+  background: #fff;
+  border: none;
+}
+.bottomBorder {
+  display: inline-block;
+  padding: 10px;
+  border-bottom: 5px solid orange;
+  text-align: left;
+}

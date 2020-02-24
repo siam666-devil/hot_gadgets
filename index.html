@@ -4,8 +4,178 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hot & Cool Gadget Store</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  
+  <!-- NAVBAR -->
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <a class="navbar-brand" href="#home"><img src="./images/logo.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto">
+          <a class="nav-item nav-link active" href="#home">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="#product">Product</a>
+          <a class="nav-item nav-link" href="#about">About Us</a>
+          <a class="nav-item nav-link" href="#contact">Contact</a>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <!-- Carousel -->
+  <div class="container">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row d-flex align-items-center">
+            <div class="col-md-7">
+              <h1>Mackbook PRO</h1>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate necessitatibus dolorum optio, similique molestias accusamus a natus excepturi culpa magnam?</p>
+              <button class="primary-button">BUY NOW</button>
+            </div>
+            <div class="col-md-5">
+              <img src="./images/banner-products/product-1.png" class="d-block w-100" alt="...">
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row d-flex align-items-center">
+            <div class="col-md-7">
+              <h1>Alexa</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam quae veniam voluptatem repellendus molestiae, corporis soluta deleniti eaque nostrum minus. </p>
+              <button class="primary-button">BUY NOW</button>
+            </div>
+            <div class="col-md-5">
+              <img src="./images/banner-products/slider-1.png" class="d-block w-100" alt="...">
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row d-flex align-items-center">
+            <div class="col-md-7">
+              <h1>Microphone</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam quae veniam voluptatem repellendus molestiae, corporis soluta deleniti eaque nostrum minus. </p>
+              <button class="primary-button">BUY NOW</button>
+            </div>
+            <div class="col-md-5">
+              <img src="./images/banner-products/slider-3.png" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+  <!-- Product -->
+  <div class="container" id="product">
+    <div class="row extra-margin d-flex justify-content-between align-items-center">
+        <h3>Smartphones</h3>
+       <h6 class="orange"><a href="#">see all</a></h6>
+    </div>
+    <!-- Card Deck -->
+    <div class="card-deck">
+      <div class="card d-flex justify-content-center align-items-center text-center">
+        <img src="./images/phone/phone-1.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Redmi Note 69</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+        <div class="card-footer">
+          <h5>$999</h5>
+          <button class="primary-button">BUY NOW</button>
+        </div>
+      </div>
+      <div class="card d-flex justify-content-center align-items-center text-center">
+        <img src="./images/phone/phone-2.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">iPhone 11 Pro</h5>
+          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        </div>
+        <div class="card-footer">
+          <h5>$999</h5>
+          <button class="primary-button">BUY NOW</button>
+        </div>
+      </div>
+      <div class="card d-flex justify-content-center align-items-center text-center">
+        <img src="./images/phone/phone-3.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Samsung Galaxy Note 10+</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+        </div>
+        <div class="card-footer">
+          <h5>$999</h5>
+          <button class="primary-button">BUY NOW</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Laptop Product -->
+  <div class="container" id="product">
+    <div class="row extra-margin d-flex justify-content-between align-items-center">
+        <h3>Laptops</h3>
+       <h6 class="orange"><a href="#">see all</a></h6>
+    </div>
+    <!-- Card Deck -->
+    <div class="card-deck">
+      <div class="card d-flex justify-content-center align-items-center text-center">
+        <img src="./images/laptop/product-1.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Asus VivoBOOK</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+        <div class="card-footer">
+          <h5>$999</h5>
+          <button class="primary-button">BUY NOW</button>
+        </div>
+      </div>
+      <div class="card d-flex justify-content-center align-items-center text-center">
+        <img src="./images/laptop/product-2.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Razer Blade 15</h5>
+          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        </div>
+        <div class="card-footer">
+          <h5>$999</h5>
+          <button class="primary-button">BUY NOW</button>
+        </div>
+      </div>
+      <div class="card d-flex justify-content-center align-items-center text-center">
+        <img src="./images/laptop/product-3.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Xioami Mi Notebook PRO</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+        </div>
+        <div class="card-footer">
+          <h5>$999</h5>
+          <button class="primary-button">BUY NOW</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Categoris -->
+  <div class="container">
+      <h5 class="bottomBorder">Category</h5>
+    </div>
+  </div>
+  <!-- Javascript -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>
