@@ -49,8 +49,44 @@ a img {
   border: none;
 }
 .bottomBorder {
+  background: linear-gradient(to right, #F16A70, #F16A70) no-repeat;
+  background-size: 7% 3px;
+  background-position: center bottom;
+  color: black;
+  font-size: 30px;
+  font-family: oswald, sans-serif;
   display: inline-block;
+  vertical-align: top;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.container h5 {
+  text-align: center;
+  width: 100%;
+}
+
+/* .bottomBorder {
+  display: block;
   padding: 10px;
   border-bottom: 5px solid orange;
-  text-align: left;
+  text-align: center;
+  width: 100%;
+} */
+.right-box img {
+  width: 90%;
+}
+.bag {
+  padding: 40px;
+}
+.bag, .shoe, .perfume {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 3px 3px 10px gray;
+  border-radius: 40px 30px 20px 25px;
+  margin-bottom: 20px;
+}
+.row .left-box img {
+  margin-bottom: 20px;
 }
